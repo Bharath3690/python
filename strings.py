@@ -95,9 +95,6 @@ list9.pop(1)  #pop
 list9.pop() #(if we cant indicate any index on pop then it will remove last item )
 print(list9)
 
-myList1 = ["john","manoj","pavan","mouli"]
-del myList1 #delete
-print(myList1)
 
 
 list5 = ['hello',"github","123","love"]
