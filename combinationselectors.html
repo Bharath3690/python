@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cobination selectors</title>
+    <style>
+        div,span,p{
+            color:black; 
+            background-color: azure;
+            width: 900px;
+            height: 100px;
+            padding: 20px;
+            margin: 40px;
+            font-weight: 100;
+
+        }
+        #a {
+            width: 900px;
+            height:100px;
+            background-color: aqua;
+            margin-bottom: 30px;
+
+        }
+        #a:hover {
+            cursor: pointer;
+            background-color: red;
+        }
+        #b{
+            color: darkgray;
+            background-color: gray;
+
+        }
+        div1.red.green{
+            color: aliceblue;
+            background-color: gainsboro;
+
+        }
+        span1.red{
+            color:lightgrey;
+
+        }
+        span>strong {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Combination selectors</h1>
+    <div>My Name is Bharath. I am studying Btech cse 1st year in Lovely professional university.I came here at 19th sept 
+        my weekly schedule is monday to wednesday and then thursday,friday holidays and sat,sun we have classes.My mom name 
+        is Deepa.My father name is Viswanadham we live in palasa, my native village is pundigalli. I wan to go my home as fast
+        as . I am feeling very well here, everything will be okay this is my hope to start or end my day.
+    </div>
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis quod consectetur porro quos itaque eligendi beatae ipsa, eum laborum minima molestias reprehenderit dolores architecto ratione praesentium repellendus velit animi?</span>
+
+    <p>An alphabet is a standardized set of basic written symbols or graphemes (called letters) that represent the phonemes of certain spoken languages.[2] Not all writing systems represent language in this way; in a syllabary, each character represents a syllable, for instance, and logographic systems use characters to represent words, morphemes, or other semantic units</p>
+
+    <div id="a">This is div . div function uses for the division of sentences .when we given a id it is a unique like id  .when we use id in style the specific id got styled</div>
+    <span class="b">this is span tag. here class reoresents a specific class when we style this part
+        the class will be nice 
+    </span>
+    <div1 class="red">
+        this is a div
+    </div1>
+    <div2 class="red green">This is a 2 div</div2>
+    <span1 class="red">
+        this is a span
+    </span1>
+    <div>
+        <span>
+            <strong>This is a bold text</strong>
+        </span>
+    </div>
+</body>
+</html>
